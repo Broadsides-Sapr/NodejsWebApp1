@@ -1,0 +1,60 @@
+{
+  "name": "nodejs-web-app1",
+  "version": "0.0.0",
+  "description": "NodejsWebApp1",
+  "scripts": {
+    "start": "node server"
+  },
+  "engines": {
+    "node": "~6.10.x"
+  },
+  "author": {
+    "name": ""
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0"
+  },
+  "eslintConfig": {},
+  "dependencies": {
+    "@azure/abort-controller": "^1.1.0",
+    "@azure/app-configuration": "^1.4.1",
+    "@azure/arm-apimanagement": "^9.1.0",
+    "@azure/arm-appservice": "^14.0.0",
+    "@azure/arm-compute": "^21.2.0",
+    "@azure/arm-cosmosdb": "^15.5.0",
+    "@azure/arm-cosmosdbforpostgresql": "^1.0.0",
+    "@azure/arm-network": "^32.2.0",
+    "@azure/arm-rediscache": "^8.0.0",
+    "@azure/arm-relay": "^3.1.1",
+    "@azure/arm-resources": "^5.2.0",
+    "@azure/arm-sql": "^10.0.0",
+    "@azure/arm-storage": "^18.2.0",
+    "@azure/arm-subscriptions": "^5.1.0",
+    "@azure/core-auth": "^1.5.0",
+    "@azure/core-client": "^1.7.3",
+    "@azure/core-lro": "^2.5.4",
+    "@azure/core-paging": "^1.5.0",
+    "@azure/core-tracing": "^1.0.1",
+    "@azure/core-util": "^1.5.0",
+    "@azure/cosmos": "^4.0.0",
+    "@azure/cosmos-query-editor-react": "^1.0.0-beta.3",
+    "@azure/identity": "^3.3.0",
+    "@azure/keyvault-secrets": "^4.7.0",
+    "@azure/logger": "^1.0.4",
+    "@azure/msal-browser": "^3.1.0",
+    "@azure/msal-common": "^14.0.3",
+    "@azure/storage-blob": "^12.16.0",
+    "bootstrap": "^5.3.2",
+    "cohere-ai": "^6.2.2",
+    "date-fns": "^2.30.0",
+    "debug": "^4.3.4",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "http-errors": "^2.0.0",
+    "hyco-https": "^1.4.5",
+    "mongoose": "^7.5.4",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.2",
+    "rabbitmq-express": "^1.0.4"
+  }
+}
